@@ -69,3 +69,6 @@ O projeto contém um arquivo `database.sql` com a estrutura das tabelas:
 
 * livros
 * autores
+  
+  ## Repositório
+https://github.com/graziellemiranda-coder/biblioteca-api
