@@ -6,11 +6,11 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// 👇 IMPORTAR ROTAS (isso é obrigatório)
+// IMPORTAR ROTAS 
 const livrosRoutes = require("./src/routes/livros.routes");
 const autoresRoutes = require("./src/routes/autores.routes");
 
-// 👇 USAR ROTAS (isso é o principal problema normalmente)
+// USAR ROTAS 
 app.use(livrosRoutes);
 app.use(autoresRoutes);
 
